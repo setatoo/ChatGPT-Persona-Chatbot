@@ -31,8 +31,8 @@ def reset_all():
 persona = load_persona()
 messages = load_history(persona)
 client = OpenAI(
-    base_url="https://ai.liara.ir/api/69299b9e04c9b93ad287b5ea/v1",
-    api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI2OTI5OWMyZTBmNWI3MzA1MjFlMjBlOTUiLCJ0eXBlIjoiYWlfa2V5IiwiaWF0IjoxNzY0MzM0NjM4fQ.ef8KCyuxa6CIzD0stTvPz9j8HhGZ3Brw9jHCfLv5GwA"
+    base_url="ur URL",
+    api_key="ur API"
 )
 print("Type 'finish' to exit the chat.")
 print("Type 'persona' to change AI persona.")
